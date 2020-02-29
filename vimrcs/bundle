@@ -24,15 +24,13 @@ Plugin 'Mark--Karkat'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'repeat.vim'
-Plugin 'wesleyche/SrcExpl'
 Plugin 'tpope/vim-surround'
-" Plugin 'scrooloose/syntastic'  "与YCM冲突，如果不装YCM则启用它
+Plugin 'scrooloose/syntastic'
 Plugin 'tagbar'
 Plugin 'taglist.vim'
 Plugin 'TxtBrowser'
 Plugin 'autoload_cscope.vim'
 Plugin 'SuperTab'
-Plugin 'rdnetto/YCM-Generator'
 
 call vundle#end()                "必须
 filetype plugin indent on        "必须 加载VIM自带的和插件相应的语法和文件类型相关脚本
