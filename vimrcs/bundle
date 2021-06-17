@@ -30,7 +30,8 @@ Plugin 'tagbar'
 Plugin 'taglist.vim'
 Plugin 'TxtBrowser'
 Plugin 'autoload_cscope.vim'
-Plugin 'SuperTab'
+Plugin 'tpope/vim-fugitive'
+"Plugin 'SuperTab'
 
 call vundle#end()                "必须
 filetype plugin indent on        "必须 加载VIM自带的和插件相应的语法和文件类型相关脚本
