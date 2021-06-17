@@ -21,7 +21,7 @@ if has("syntax")
     syntax on
 endif
 
-set mouse=a                    " 启用鼠标
+"set mouse=a                    " 启用鼠标
 set t_Co=256                   " 在终端启用256色
 set backspace=2                " 设置退格键可用
 
@@ -114,7 +114,7 @@ set cursorline                                        "突出显示当前行
 set background=dark
 colorscheme Tomorrow-Night-Eighties                   "终端配色方案
 ""olorscheme molokai
-hi CursorLine term=NONE cterm=NONE ctermbg=240 guibg=none gui=none
+"hi CursorLine term=NONE cterm=NONE ctermbg=240 guibg=none gui=none
  
 
 " -----------------------------------------------------------------------------
